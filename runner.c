@@ -21,7 +21,8 @@ int main()
     int descuento[cantidad];
     for (int i = 0; i < cantidad; i++)
     {
-        printf("Vehiculos N%d\n", (i + 1));
+        printf("**********************\n");
+        printf("Vehiculo N%d\n", (i + 1));
         printf("Ingrese nombre usuario \n ");
         char nombre[20];
         scanf("%s", nombre);
@@ -56,11 +57,11 @@ int main()
     printf("//////////////////////////////////\n");
     printf("Ejecuciones del programa: %d\n", (cantidad));
     printf("Cantidad vehiculos tipo 1:%d \n", contTipo1);
-    printf("Porcentaje vehiculos tipo 1:%lf \n", (sumTipo1/contTipo1));
+    printf("Porcentaje vehiculos tipo 1:%lf \n", (sumTipo1 / contTipo1));
     printf("Cantidad vehiculos tipo 2:%d \n", contTipo2);
-    printf("Porcentaje vehiculos tipo 2:%lf \n",  (sumTipo2/contTipo2));
+    printf("Porcentaje vehiculos tipo 2:%lf \n", (sumTipo2 / contTipo2));
     printf("Cantidad vehiculos tipo 3:%d \n", contTipo3);
-    printf("Porcentaje vehiculos tipo 3:%lf \n",  (sumTipo3/contTipo3));
+    printf("Porcentaje vehiculos tipo 3:%lf \n", (sumTipo3 / contTipo3));
     printf("//////////////LISTA//////////////// \n");
     for (int i = 0; i < cantidad; i++)
     {
